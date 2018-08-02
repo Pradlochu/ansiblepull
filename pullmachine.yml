@@ -1,5 +1,4 @@
 ---
 - hosts: localhost
-  become: yes
   tasks:
-    - file: path=/home/rps/two.txt state=touch
+    - file: path=/home/rps/four.txt state=touch
