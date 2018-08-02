@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  tasks:
+    -name: file touch
+     file: path=/home/rps/developer/pull.txt state=touch
